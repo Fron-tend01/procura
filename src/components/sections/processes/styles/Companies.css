@@ -1,0 +1,28 @@
+.company {
+    display: grid;
+    padding: 20px;
+    
+}
+
+.container__create_companies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+.inputs__company {
+	text-align: left;
+}
+.create__company_btns-container {
+	grid-column: 1 / span 4;
+}
+
+.create__company_btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* popup edit */
+
+

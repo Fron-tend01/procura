@@ -1,0 +1,31 @@
+.branchOffices {
+    display: grid;
+    padding: 20px;
+}
+
+.conatiner__create_branch-offices {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+	align-items: end;
+   
+}
+
+.create__bracnhoffice_btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+.branchoffice__edit_btn {
+	background-color: var(--primary-color);
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: var(--border-radius-general);
+	cursor: pointer;
+}
+
+
+.container__btns_branch-office {
+    grid-column: 1 / span 4;
+}

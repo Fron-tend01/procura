@@ -1,0 +1,21 @@
+.Areas {
+	display: grid;
+    padding: 20px;
+}
+
+.conatiner__create_areas {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+	align-items: end;
+}
+
+.create__areas_btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+.container__btns_areas {
+	grid-column: 1 / span 4;
+}
+
